@@ -1,0 +1,91 @@
+/*Set color variables*/
+:root {
+    --primary: #A8323E;
+    --secondary: #F6F1ED;
+    --accent-1: #D9A441;
+    --accent-2: #556B2F;
+}
+
+/*Font rules*/
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Playfair Display Italic';
+    src: url(../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(../fonts/NotoSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url(../fonts/NotoSansKR-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Noto Sans Italic';
+    src: url(../fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf);
+    font-style: italic;
+}
+
+/*Style rules*/
+
+body {
+    background: var(--secondary);
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+#content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    color: var(--accent-1);
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 0.15s;
+    color: var(--accent-2);
+}
+
+#nav-selected {
+    color: var(--accent-2);
+}
+
+.fa {
+    color: var(--accent-2);
+}
+
+.checked {
+    color: var(--accent-1);
+}
+
+.button-link {
+    padding: 15px;
+    border-radius: 20px;
+    margin: 15px 10px;
+    color: var(--accent-1);
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-link:hover {
+    filter: brightness(90%);
+    transition: 0.15s;
+}
