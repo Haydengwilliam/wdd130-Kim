@@ -4,48 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Title and favicon-->
     <title>K-Ramen</title>
     <link rel="icon" type="image/x-icon" href="./images/logo.png">
 
+    <!--Icon Library-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Stylesheet link-->
+    <link rel="stylesheet" type="text/css" href="./styles/index-styles.css">
 </head>
 <body>
-    <header>
-        <img src="./images/logo.png" alt="K-Ramen logo">
-        <nav>
-            <a href="#">Home</a>
-            <a href="./pages/recipe.html">Recipe</a>
-            <a href="./pages/review.html">Review</a>
-        </nav>
-        <h1>Discover the Rich Flavors of Korean Ramen!</h1>
-        <img src="./images/home-ramen.png" alt="A bowl of ramen with an egg yolk">
-    </header>
-    <main>
-        <div id="recipe-preview">
-            <h2><a href="./pages/recipe.html" class="heading-link">Recipe Preview</a></h2>
-            <img src="./images/ramen-recipe-step-9.jpg" alt="Ready-to-serve ramen">
-            <p>Try this easy and flavorful Korean ramen recipe, inspired by a popular chef&apos;s secret tips. Ready in just 5 minutes!</p>
-            <a href="./pages/recipe.html">View Recipe</a>
-        </div>
-        <div id="review-preview">
-            <h2><a href="./pages/review.html" class="heading-link">Review Preview</a></h2>
-            <img src="./images/shin-ramyun.jpg" alt="Shin Ramyun">
-            <div class="star-rating">
-                <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span>
+    <div id="content-wrapper">
+        <header>
+            <div id="upper-header">
+                <img src="./images/logo.png" alt="K-Ramen logo" id="logo">
+                <nav>
+                    <a href="#" id="nav-selected">Home</a>
+                    <a href="./pages/recipe.html">Recipe</a>
+                    <a href="./pages/review.html">Review</a>
+                </nav>
             </div>
-            <img src="./images/fire-noodles.png" alt="Fire Noodles">
-            <div class="star-rating">
-                <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+            <h1>Discover the Rich Flavors of Korean Ramen!</h1>
+            <img src="./images/home-ramen.png" alt="A bowl of ramen with an egg yolk">
+        </header>
+        <main>
+            <div id="recipe-preview">
+                <h2><a href="./pages/recipe.html" class="heading-link">Recipe Preview</a></h2>
+                <img src="./images/ramen-recipe-step-9.jpg" alt="Ready-to-serve ramen">
+                <p>Try this easy and flavorful Korean ramen recipe, inspired by a popular chef&apos;s secret tips. Ready in just 5 minutes!</p>
+                <a href="./pages/recipe.html" class="button-link">View Recipe</a>
             </div>
-            <img src="./images/spicy-cold-noodles.jpg" alt="Spicy Cold Noodles">
-            <div class="star-rating">
-                <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span>
+            <div id="review-preview">
+                <h2><a href="./pages/review.html" class="heading-link">Review Preview</a></h2>
+                <div class="img-wrapper">
+                    <img src="./images/shin-ramyun.jpg" alt="Shin Ramyun">
+                    <p>Shin Ramyun</p>
+                </div>
+                <div class="img-wrapper">
+                    <img src="./images/fire-noodles.png" alt="Fire Noodles">
+                    <p>Buldak Bokkeummyeon / Fire Noodles</p>
+                </div>
+                <div class="img-wrapper">
+                    <img src="./images/spicy-cold-noodles.jpg" alt="Spicy Cold Noodles">
+                    <p>Bibimmyun / Spicy Cold Noodles</p>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span>
+                </div>
+                <a href="./pages/review.html" class="button-link">View More</a>
             </div>
-            <a href="./pages/review.html">View More</a>
-        </div>
-    </main>
-    <footer>
-        <p>&copy;2025 K-Ramen Website</p>
-    </footer>
+        </main>
+        <footer>
+            <p>&copy;2025 K-Ramen Website</p>
+        </footer>
+    </div>
 </body>
 </html>
