@@ -210,7 +210,21 @@ footer > p {
 }
 
 /*Recipe-specific style rules*/
+#recipe-content {
+    
+}
 
+#recipe-page-title {
+}
+
+.ingredients-table {
+}
+
+#instructions {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    max-width: 800px;
+}
 
 
 /*Review-specific style rules*/
