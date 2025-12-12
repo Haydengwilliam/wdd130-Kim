@@ -232,4 +232,13 @@ footer > p {
 
 /*Review-specific style rules*/
 
-
+.review-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.review-grid img {
+    width: 100%;
+}
+.star-rating {
+    grid-column: 2/3;
+}
